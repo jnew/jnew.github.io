@@ -21,13 +21,18 @@ p {
 	margin-bottom: 1em;
 }
 
-#main {
+#main_content {
 	padding: 50px;
 	background-color: #ffffff;
-	border: 2px solid #000000;
+}
+
+#main {
+	padding: 2px;
+	background-color: #000000;
 	left:50%;
 	top:50%;
-	max-width: 1000px;
+	width: 90%;
+	max-width: 900px;
 	transform:translate(-50%,-50%);
 	-webkit-transform:translate(-50%,-50%);
 	position:absolute;
