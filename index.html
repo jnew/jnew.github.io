@@ -1,5 +1,14 @@
 ---
-layout: homepage
+layout: default 
 title: Home - John Patrick New 
 ---
-Hello World!
+{% capture intro_paragraph %}
+Below you will find a small directory of my personal accounts. 
+
+
+Feel free to browse through my photographs, inspect my github projects (including the source of this website), or contact me on Linkedin. If you would like to email me directly, you can find my personal email address <a href="http://www.google.com/recaptcha/mailhide/d?k=01HDg1UKIUwU-O3idqYs9myQ==&amp;c=dgFDMNCYoyQB-1eseQ4DL918T5ZQ3zDDeTDk3AnQ9Ww=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501HDg1UKIUwU-O3idqYs9myQ\75\75\46c\75dgFDMNCYoyQB-1eseQ4DL918T5ZQ3zDDeTDk3AnQ9Ww\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="reveal email address">here</a>.
+
+
+Thank you for visiting!
+{% endcapture %}
+{{ intro_paragraph | markdownify }}
