@@ -1,5 +1,13 @@
+# Gitignore for jnew.github.io
+
+# Local ruby things
 Gemfile 
 Gemfile.lock
+
+# Jekyll things we don't want
 _site/*
 .jekyll-metadata
+
+# Temporary files
 *.swp
+*~
