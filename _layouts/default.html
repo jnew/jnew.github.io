@@ -4,6 +4,7 @@
 		<title>{{ page.title }}</title>
 		<link rel="shortcut icon" href="favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/site.css"/>
+		{% include analytics.html %}
 	</head>
 	<body>
 		<div id="main">
@@ -11,7 +12,6 @@
 				{% include header.html %}
 				{{ content }}
 				{% include footer.html %}
-				{% include analytics.html %}
 			</div>
 		</div>
 	</body>
