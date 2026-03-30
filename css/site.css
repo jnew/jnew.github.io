@@ -10,7 +10,7 @@ html, body {
 body {
 	color: #000000;
 	background-color: #ededed;
-	background-image: url("bg_skyline.png");
+	background-image: url("../bg_skyline.png");
 	background-size: cover;
 	width:100%; 
 	position:relative; 
